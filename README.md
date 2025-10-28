@@ -2,7 +2,7 @@
 ### A 2D Survival Dodging Game by Wyatt Cosby  
 **Course:** CS 583 - 3D Game Programming  
 **Engine:** Unity (2D Project)  
-**Platform:** PC + WebGL  
+
 
 ---
 
@@ -32,7 +32,7 @@ Each round is short, challenging, and designed for quick replays.
 - **Win Condition:** Survive until timer reaches 0  
 - **Lose Condition:** Health reaches 0  
 - **Audio Feedback:**  
-  - Distinct sounds for jumping, landing, damage, and death  
+  - Distinct sounds for jumping, damage, and death  
 
 ---
 
