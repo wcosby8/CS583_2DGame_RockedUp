@@ -6,7 +6,7 @@
 ---
 
 
-##Changes from Original Design Document:
+## Changes from Original Design Document
 The final version of Rocked Up was simplified from the original concept to ensure a polished minimum viable product. Originally, the game featured a 3-minute survival 
 sequence followed by a boss fight with a rock golem, multiple attack types, weapon progression (punch, rock throw, and glock), and health pickups. The final implementation 
 focuses on a single 90-second survival round with continuous falling rocks and ground-based “rock goomba” enemies that can be stomped to destroy. Combat weapons and the boss 
