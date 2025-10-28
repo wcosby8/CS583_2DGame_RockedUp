@@ -1,42 +1,54 @@
-# CS583_2DGame_RockedUp
-This repository stores my Unity 2D game "Rocked Up" for CS583.
-# ROCKED UP
+# 🪨 ROCKED UP
+### A 2D Survival Dodging Game by Wyatt Cosby  
+**Course:** CS 583 - 3D Game Programming  
+**Engine:** Unity (2D Project)  
+**Platform:** PC + WebGL  
 
-**Genre:** Action / Survival / Dodging  
-**Engine:** Unity (Input System)  
-**Platform:** PC + WebGL
+---
 
-## Play the Game
-- 
+## 🎮 GAME OVERVIEW
+**Rocked Up** is a 2D survival game where you must avoid falling rocks and ground enemies for 90 seconds.  
+Use precise movement and timing to dodge hazards, maintain your health, and survive until the timer runs out.  
+Each round is short, challenging, and designed for quick replays.
 
-## Summary
-"Rocked Up" is a 2D survival dodger. Avoid falling rocks and survive **90 seconds** to win.
+---
 
-### Controls
-- **A/D**: Move
-- **Space**: Jump
-- **Esc**: Pause
-- **R**: Restart (on game over)
+## 🕹️ CONTROLS
+| Action | Key |
+|:-------|:----|
+| Move Left / Right | **A / D** |
+| Jump | **Spacebar** |
+| Pause / Resume | **Escape** |
+| Restart (Game Over) | **R** |
 
-### Core Mechanics
-- Start: **40 HP**, rocks deal **10 HP** damage.
-- Spawns: 2 rock/sec at random X positions.
-- Win: survive 90s. Lose: HP hits 0.
+---
 
-### Features
-- Physics-based platforming
-- Health bar + SFX (hit/jump/land/death)
-- Timer + win/lose states
-- Main menu + restart flow
-- Configurable spawn rate
+## 💥 GAMEPLAY DETAILS
+- **Objective:** Survive for **90 seconds** while avoiding falling rocks and “rock goombas.”  
+- **Health:**  
+  - Starts at **100 HP**  
+  - Rock hit = **10 HP** damage  
+  - Stomping on a “rock goomba” destroys it without taking damage  
+- **Win Condition:** Survive until timer reaches 0  
+- **Lose Condition:** Health reaches 0  
+- **Audio Feedback:**  
+  - Distinct sounds for jumping, landing, damage, and death  
 
-### Open the Project
+---
 
+## ⚙️ TECHNICAL DETAILS
+**Unity Version:** 2022.3 or newer (URP not required)  
+**Programming Language:** C#  
+**Key Systems Implemented:**
+- Rigidbody2D physics-based movement and jumping  
+- Randomized rock spawning system  
+- Health and UI tracking  
+- Pause, restart, and game state management  
+- AudioManager for SFX and background music  
 
-### Build Locally
+---
 
-
-### Credits / License
+##CREDITS
 - Wyatt Cosby, CS 583-03, Fall 2025.
 - Sound Assets:
   https://assetstore.unity.com/packages/audio/sound-fx/voices/damage-sounds-male-npc-player-audio-pack-285385
