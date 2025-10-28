@@ -26,8 +26,8 @@ Each round is short, challenging, and designed for quick replays.
 ## 💥 GAMEPLAY DETAILS
 - **Objective:** Survive for **90 seconds** while avoiding falling rocks and “rock goombas.”  
 - **Health:**  
-  - Starts at **100 HP**  
-  - Rock hit = **10 HP** damage  
+  - Starts at **40 HP**  
+  - Rock/goomba hit = **10 HP** damage  
   - Stomping on a “rock goomba” destroys it without taking damage  
 - **Win Condition:** Survive until timer reaches 0  
 - **Lose Condition:** Health reaches 0  
